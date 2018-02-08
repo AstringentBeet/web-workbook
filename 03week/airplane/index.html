@@ -2,20 +2,48 @@
 <html>
   <head>
     <title>UX Atlantic</title>
+    <link rel="stylesheet" href="/Users/alexandereffanga/Documents/Dev/reset.css"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+    </style>
   </head>
   <body>
     <header>
-      <img src="img/logo.png"/>
-        <nav class="Nav1">
-          <ul>
-            <li><img src="img/home-icon.png"/>Home</li>
-            <li><img src="img/deal-icon.png"/>Travel deals</li>
-            <li><img src="img/schedule-icon.png"/>Flight Schedule</li>
-            <li><img src="img/login-icon.png"/>Register/login</li>
-          </ul>
+        <nav>
+          <img src="img/logo.png"/>
+            <div class="nav1">
+              <ul class="nav2">
+                <li class="soar"><img src="img/home-icon.png"/>Home</li>
+                <li class="soar"><img src="img/deal-icon.png"/>Travel deals</li>
+                <li class="soar"><img src="img/schedule-icon.png"/>Flight Schedule</li>
+                <li class="soar"><img src="img/login-icon.png"/>Register/login</li>
+              </ul>
+            </div>
         </nav>
     </header>
-    <body>
+    <div class="whili"></div>
       <article>
-        <img src="img/plane-icon.png"/>
+        <ul class="craftbar">
+          <li class="craft"><img src="img/plane-icon.png"/></li>
+          <li class="craft"><img src="img/hotel-icon.png"/></li>
+          <li class="craft"><img src="img/car-icon.png"/></li>
+        </ul>
+      </article>
+      <article>
+        <div class="bigbox">
+          <form>
+            <input type="text" class="depart-field" placeholder="Depart">
+            <input type="text" class="arrive-field" placeholder="Arrive">
+            <input type="date" class="date-field" placeholder="mm/dd/yyyy">
+            <input type="date" class="date-field2" placeholder="mm/dd/yyyy">
+            <span class="passengers">Passengers</span><input type="number" class="passengers" min="0" max="7">
+            <input type="radio" class="option" value="Return"><span class="option">Return</span>
+            <input type="radio" class="option2" value="Oneway"><span class="option">One Way</span>
+            <input type="submit" class="submit" value="Search Flights">
+          </form>
+        </div>
+      </article>
+  </body>
+<footer></footer>
+</html>

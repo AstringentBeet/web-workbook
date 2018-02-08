@@ -1,0 +1,27 @@
+body{
+  font-family: 'Cormorant Garamond', serif;
+  color: beige;
+  background-color: black;
+  font-size: 32px;
+}
+
+.heading {width: 510px;
+  height: auto;
+  text-align: center;
+  line-height: .875;
+  margin-top: -15px;
+  float: left;}
+
+.logo h1{margin: 0; font-size: 6em; height: 150px; width: 510px;}
+
+.logo p{margin-top: 4.25px;}
+
+ul.headlink{list-style-type: none; padding: 0; margin: 0;}
+
+ul.headlink li{font-size: .82em;
+display: inline;
+text-decoration: underline;
+float: right;
+border: 1px solid beige;}
+
+/*********** header ends here ***********/

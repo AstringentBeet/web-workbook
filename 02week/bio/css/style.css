@@ -1,0 +1,50 @@
+body{
+  height: 2000px;
+  color: black;
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 100;
+  background-image: url(/Users/alexandereffanga/Pictures/Zen.jpeg);
+  background-position: center top;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.intro{
+  margin: 290px 0px 0px 190px;
+  /*rgba values seem to work much
+  better than traditional hex colors
+  for purposes involving opacity*/
+  height: 180px;
+  width: 600px;
+
+}
+
+span{
+  font-size: 1.3em;
+}
+
+.skillset{
+  float: right;
+  padding:0%;
+  margin: 0%;
+}
+
+.skill{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.fullstack:nth-child(2){
+  margin: 15% 0% 0% 30%;
+}
+
+.fullstack:nth-child(3){
+  margin: 30% 0% 0% 60%;
+}
+
+li.fullstack{
+  list-style-type: none;
+}
