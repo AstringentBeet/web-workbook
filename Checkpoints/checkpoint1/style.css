@@ -19,9 +19,9 @@ body{
 ul.headlink{list-style-type: none; padding: 0; margin: 0;}
 
 ul.headlink li{font-size: .82em;
-display: inline;
-text-decoration: underline;
-float: right;
-border: 1px solid beige;}
+  display: inline;
+  text-decoration: underline;
+  float: right;
+  border: 1px solid beige;}
 
 /*********** header ends here ***********/
