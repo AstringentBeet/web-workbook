@@ -1,18 +1,19 @@
 body{
-  height: 2000px;
+  height: 1700px;
   color: black;
   font-size: 16px;
   font-family: 'Libre Baskerville', serif;
   font-weight: 100;
-  background-image: url(/Users/alexandereffanga/Pictures/Zen.jpeg);
+  background-image: url(/Users/alexandereffanga/Documents/Dev/web-workbook/02week/bio/images/Zen.jpeg);
   background-position: center top;
   background-size: 95%;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  border-radius: 5px;
 }
 
 .intro{
-  margin: 290px 0px 0px 190px;
+  margin: 15% 0px 0px 10%;
   /*rgba values seem to work much
   better than traditional hex colors
   for purposes involving opacity*/
@@ -21,30 +22,62 @@ body{
 
 }
 
-span{
+.emphasis{
   font-size: 1.3em;
 }
 
 .skillset{
   float: right;
-  padding:0%;
-  margin: 0%;
+  width: 375px;
+  margin: 3% 5% 0% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skill{
-  height: 150px;
-  width: 200px;
-  border: 1px solid black;
+  margin-top: 5%;
+  min-height: 150px;
+  max-width: 175px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fullstack:nth-child(1){
+  align-self: flex-start;
 }
 
 .fullstack:nth-child(2){
-  margin: 15% 0% 0% 30%;
+  align-self: center;
 }
 
 .fullstack:nth-child(3){
-  margin: 30% 0% 0% 60%;
+  align-self: flex-end;
 }
 
-li.fullstack{
-  list-style-type: none;
+.bulb{
+  float: left;
+  margin: 40% 0% 0% 2.5%;
+  width: 640px;
+  height: 355px;
+  background-image: url("../images/Bulb.jpeg");
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.origin{
+  float: right;
+  width: 500px;
+  margin: 28% 8.5% 0% 0%;
+}
+
+.zeb{
+  float: right;
+  background-image: url("../images/Zebra.jpeg");
+  margin: 14% 2.32% 0% 0%;
+  width: 640px;
+  height: 355px;
+  background-size: cover;
+  border-radius: 5px;
 }
