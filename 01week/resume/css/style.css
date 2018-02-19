@@ -1,15 +1,21 @@
 body {
-  background-color: beige;
-  font-family: 'Mukta Malar', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
   margin: 0% 15% 2% 15%;
-  background-color: #d8af45;
+  background-color: #ffffcc;
 }
 
-.nav li{
-  display: inline-block;
-  margin: 0px 20px 0px 20px;
-  text-align: center;
-  text-decoration: none;
+nav{
+  display: flex;
+  justify-content: center;
+
+}
+
+ul.nav{
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3em;
 }
 
 .heading, .H4, h1, figcaption{
@@ -18,20 +24,12 @@ body {
 }
 
 h1{
-  color: beige;
   font-size: 1.5em
 }
 
 h4 {
   font-size: 1.25em;
   font-weight: 600;
-}
-
-img {
-  /*attempt to center this goddamn image*/
-  padding-left: 37%;
-  width: 239px;
-  height: 325px;
 }
 
 span {
@@ -44,5 +42,4 @@ ul, li{
 
 footer {
   margin-top: 10%;
-
 }

@@ -1,5 +1,5 @@
 body{
-  background-color: #eeebe4;
+  background-color: #ffffcc;
   height: 1600px;
   color: black;
   font-size: 16px;
@@ -44,10 +44,11 @@ header{
   height: 508px;
   width: 900px;
   background-size: cover;
+  border: 2px solid #3399ff;
   border-radius: 5px;
 }
 
-.Austin{
+.austin{
   margin: 13% 3% 0% 0%;
   float: right;
   height: 120px;
@@ -94,7 +95,7 @@ header{
   align-self: flex-end;
 }
 
-.Austin3{
+.austin3{
   clear: both;
   float: right;
   margin: 8% 16% 0% 0%;
@@ -109,4 +110,9 @@ header{
   float: left;
   width: 500px;
   margin: 20% 0% 0% 14%;
+}
+
+footer{
+  clear: both;
+  bottom: 0;
 }
