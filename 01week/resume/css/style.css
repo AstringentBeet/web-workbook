@@ -1,26 +1,30 @@
 body {
   font-family: 'Libre Baskerville', serif;
-  font-size: 15px;
+  font-size: 14px;
   margin: 0% 15% 2% 15%;
   background-color: #ffffcc;
+  font-weight: lighter;
 }
 
 nav{
+  font-size: 1.23em;
+  margin-top: 4.5%;
   display: flex;
   justify-content: center;
-
 }
 
-ul.nav{
-  width: 300px;
+ nav ul{
+ width: 300px;
+ list-style-type: none;
+ display: flex;
+ justify-content: space-between;
+}
+
+header {
+  border: 1px solid black;
   display: flex;
-  justify-content: space-around;
-  font-size: 1.3em;
-}
-
-.heading, .H4, h1, figcaption{
-  clear: right;
-  text-align: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 h1{
