@@ -1,0 +1,43 @@
+body{
+  color: white;
+  font-size: 16px;
+  font-family: georgia;
+  text-align: center;
+}
+
+h2{
+  font-size: 2em;
+}
+.container{
+  height: 800px;
+  border: 1px solid black;
+}
+
+.article-container{
+  margin: auto;
+  font-size: 3em;
+  font-weight: lighter;
+  background-color: #2bcdc0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  max-width: 80%;
+}
+
+.main{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 80%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main h2{
+  font-size: 2em;
+}
