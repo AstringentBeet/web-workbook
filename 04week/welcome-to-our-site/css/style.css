@@ -52,6 +52,7 @@ h2{
   margin-top: 20px;
 }
 
+/*for mobile devices*/
 @media(max-width: 576px){
 
   .article-container{
