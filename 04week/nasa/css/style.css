@@ -6,7 +6,7 @@ body {
 }
 
 .hero{
-  background-image: url("/Users/alexandereffanga/Documents/Dev/web-workbook/04week/nasa/img/nasa-background.jpg");
+  background-image: url("web-workbook/04week/nasa/img/nasa-background.jpg");
   height: 450px;
   width: 850px;
   font-size: 2em;
