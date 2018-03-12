@@ -1,0 +1,142 @@
+body{
+  font-size: 16px;
+  font-family: arial;
+}
+
+
+/*****beginning of media query; mobile****/
+
+@media(min-width: 576px){
+
+    .image{
+      background-image: url("/Users/alexandereffanga/Documents/Dev/web-workbook/04week/tomorrows-technology/img/bg.jpg");
+      background-size: cover;
+      border: 1px solid black;
+      min-width: 576px;
+      min-height: 300px;
+    }
+
+    .techbox{
+      background-color: #4d4d4d;
+      color: #fefefe;
+      margin-top: 2.8%;
+      width: 100px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .main{
+      margin: 2%;
+    }
+
+    .tomtech h1{
+      font-size: 1.8em;
+      font-weight: 100;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .mini{
+      background-color: #5d5d5d;
+      color: white;
+      font-weight: lighter;
+      margin-top: 10px;
+      height: 210px;
+      min-width: 380px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+
+    .mini h3{
+      font-size: 1.25em;
+      margin-bottom: 10px;
+    }
+
+    .mini ul{
+      list-style: none;
+    }
+
+    .mini ul li{
+      line-height: 1.8;
+      border-bottom: 1px solid white;
+      padding-bottom: 2px;
+    }
+
+    .headlines{
+      display: none;
+    }
+
+}
+
+
+
+@media(min-width: 768px){
+
+    .tomtech{
+      min-width: 768px;
+    }
+
+    .image{
+      min-width:765px;
+      max-width: 765px;
+      min-height: 389px;
+    }
+
+    .mini{
+      display: none;
+    }
+
+}
+
+
+
+@media(min-width: 992px){
+
+  .main{
+    display: flex;
+    justify-content: space-between;
+  }
+
+    .tomtech{
+      min-width: 840px;
+    }
+
+    .image{
+      min-width: 840px;
+      min-height: 425.6px;
+    }
+
+    .headlines{
+      display: block;
+      width: 500px;
+      height: 300px;
+    }
+
+    .headlines h2{
+      font-size: 1.4em;
+      text-align: center;
+      text-decoration: underline;
+      text-underline-position: under;
+    }
+
+    .headlines ul{
+      list-style-type: none;
+    }
+
+    .headlines ul li{
+      margin: 20px 0;
+    }
+
+    .techbox{
+      margin: 2%;
+    }
+
+    .mini{
+      display: none;
+    }
+
+}
+*/
