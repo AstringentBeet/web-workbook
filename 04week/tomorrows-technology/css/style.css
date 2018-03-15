@@ -9,7 +9,7 @@ body{
 @media(min-width: 400px){
 
     .image{
-      background-image: url("/Users/alexandereffanga/Documents/Dev/web-workbook/04week/tomorrows-technology/img/bg.jpg");
+      background-image: url("../img/bg.jpg");
       background-size: contain;
       border: 1px solid black;
       min-width: 380px;
