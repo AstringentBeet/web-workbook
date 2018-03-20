@@ -46,7 +46,7 @@ ul.headlink li{
   margin: 5% 0% 0% 5%;
   clear: both;
   float: left;
-  background-image: url("/Users/alexandereffanga/Documents/Dev/web-workbook/Checkpoints/checkpoint1/Images/espresso2.jpeg");
+  background-image: url("../Images/espresso2.jpeg");
   background-size: contain;
   width: 800px;
   height: 530px;
