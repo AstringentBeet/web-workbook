@@ -3,25 +3,71 @@ body{
   color: beige;
   background-color: black;
   font-size: 32px;
+  height: 1000px;
 }
 
-.heading {width: 510px;
-  height: auto;
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  width: 510px;
   text-align: center;
   line-height: .875;
-  margin-top: -15px;
-  float: left;}
+}
 
-.logo h1{margin: 0; font-size: 6em; height: 150px; width: 510px;}
+.logo h1{margin: 0; font-size: 4.8em; height: 125px; width: 510px;}
 
 .logo p{margin-top: 4.25px;}
 
-ul.headlink{list-style-type: none; padding: 0; margin: 0;}
 
-ul.headlink li{font-size: .82em;
+ul.headlink{
+  display: flex;
+  flex-direction: column;
+  margin-top: 38%;
+  margin-left: -20%
+}
+
+ul.headlink li{
+  padding: 0% 2% 0% 2%;
+  font-size: .86em;
   display: inline;
-  text-decoration: underline;
-  float: right;
-  border: 1px solid beige;}
+}
 
-/*********** header ends here ***********/
+.o{
+  margin-left: -15%
+}
+
+/*********** header ends here; main content begins ***********/
+
+.disp{
+  margin: 5% 0% 0% 5%;
+  clear: both;
+  float: left;
+  background-image: url("/Users/alexandereffanga/Documents/Dev/web-workbook/Checkpoints/checkpoint1/Images/espresso2.jpeg");
+  background-size: contain;
+  width: 800px;
+  height: 530px;
+}
+
+.info1 {
+/*****font-style is prone to change***/
+  font-size: 19px;
+  font-weight: lighter;
+  width: 250px;
+  margin: 8.6% 12% 0% 0%;
+  clear: right;
+  float: right;
+}
+
+.info1 h3{
+  margin-bottom: 20px;
+  font-size: 2.3em;
+}
+
+.info1 p{
+  font-weight: lighter;
+  font-size: 1.125em;
+}

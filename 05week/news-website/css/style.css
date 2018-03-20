@@ -1,0 +1,16 @@
+body{
+  font-size: 16px;
+  font-family: serif;
+}
+
+
+
+
+@media(min-width: 576px){
+
+    .grid{
+      display: grid;
+      grid-column-start: ;
+    }
+
+}
