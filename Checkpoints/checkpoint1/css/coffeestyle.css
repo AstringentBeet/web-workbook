@@ -1,0 +1,48 @@
+
+
+@media (min-width: 576px){
+
+    body{
+      font-family: 'Cormorant Garamond', serif;
+      color: beige;
+      background-color: black;
+      font-size: 24px;
+      height: 1000px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header{display: flex; justify-content: center;}
+
+    .heading {
+      width: 510px;
+      text-align: center;
+      line-height: .875;
+    }
+
+    a{
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .logo h1{margin: 0; font-size: 4.8em; height: 125px; width: 510px;}
+    .logo p{margin-top: -20px}
+
+    ul.headlink{
+      display: flex;
+      flex-direction: column;
+      margin-top: 38%;
+      margin-left: -70%;
+    }
+
+    ul.headlink li{
+      padding: 0% 2% 0% 2%;
+      font-size: .86em;
+      display: inline;
+
+    }
+
+    .o{margin-left: -15%}
+
+/*********** header ends here; main content begins ***********/

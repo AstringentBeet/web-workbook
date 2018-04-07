@@ -1,73 +1,130 @@
-body{
-  font-family: 'Cormorant Garamond', serif;
-  color: beige;
-  background-color: black;
-  font-size: 32px;
-  height: 1000px;
+
+
+@media (min-width: 576px){
+
+    body{
+      font-family: 'Cormorant Garamond', serif;
+      color: beige;
+      background-color: black;
+      font-size: 24px;
+      height: 1000px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header{display: flex; justify-content: center;}
+
+    .heading {
+      width: 510px;
+      text-align: center;
+      line-height: .875;
+    }
+
+    a{text-decoration: none; color: inherit;}
+
+    .logo h1{margin: 0; font-size: 4.8em; height: 125px; width: 510px;}
+    .logo p{margin-top: -20px}
+
+    ul.headlink{
+      display: flex;
+      flex-direction: column;
+      margin-top: 32%;
+      margin-left: -80%;
+    }
+
+    ul.headlink li{
+      padding: 0% 2% 0% 2%;
+      font-size: .83em;
+      display: inline;
+
+    }
+
+    .o{margin-left: -10.5%}
+
+    /*********** header ends here; main content begins ***********/
+
+    .disp{
+      float: left;
+      margin: 28% 0% 10% 0%;
+      background-image: url("../Images/espresso2.jpeg");
+      background-size: contain;
+      min-width: 576px;
+      min-height: 383.85px;
+      max-height: 530px;
+      border: 1px solid gray;
+      border-radius: 6px;
+    }
+
+    .info1 {
+      margin: 0 auto;
+      justify-content: center;
+      text-align: center;
+    /*****font-style is prone to change***/
+      font-size: 19px;
+      font-weight: lighter;
+      width: 250px;
+      margin-bottom: 50px;
+    }
+
+    .info1 h3{margin-bottom: 20px; font-size: 2.3em;}
+
+    .info1 p{font-weight: lighter; font-size: 1.125em;}
+
+    .tomato{
+      margin: 0 auto;
+      width: 48%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .tomato h1{font-size: 1.3em;}
+    .tomato p{font-size: .915em;}
+
+    .iconbox{
+      height: auto;
+      margin-top: 50px;
+      margin-bottom: 55px;
+    }
+
+
+    .fieldpic, .shoppic, .barispic{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin: 0 auto;
+      height: 225px;
+      width: 225px;
+      border-radius: 50%;
+      border: 2px solid beige;
+    }
+
+    .fieldpic{
+      background-image: url("../Images/coffefield3.jpg");
+      background-size: contain;
+    }
+
+    .shoppic{
+      background-image: url("../Images/coffeebv2.jpeg");
+      background-size: cover;
+    }
+
+    .barispic{
+      background-image: url("../Images/barista3.jpg");
+      background-size: cover;
+    }
+
 }
 
-
-header{
-  display: flex;
-  justify-content: center;
-}
-
-.heading {
-  width: 510px;
-  text-align: center;
-  line-height: .875;
-}
-
-.logo h1{margin: 0; font-size: 4.8em; height: 125px; width: 510px;}
-
-.logo p{margin-top: 4.25px;}
+@media (min-width: 768px){
 
 
-ul.headlink{
-  display: flex;
-  flex-direction: column;
-  margin-top: 38%;
-  margin-left: -20%
-}
 
-ul.headlink li{
-  padding: 0% 2% 0% 2%;
-  font-size: .86em;
-  display: inline;
-}
 
-.o{
-  margin-left: -15%
-}
 
-/*********** header ends here; main content begins ***********/
 
-.disp{
-  margin: 5% 0% 0% 5%;
-  clear: both;
-  float: left;
-  background-image: url("../Images/espresso2.jpeg");
-  background-size: contain;
-  width: 800px;
-  height: 530px;
-}
 
-.info1 {
-/*****font-style is prone to change***/
-  font-size: 19px;
-  font-weight: lighter;
-  width: 250px;
-  margin: 8.6% 12% 0% 0%;
-  clear: right;
-  float: right;
-}
 
-.info1 h3{
-  margin-bottom: 20px;
-  font-size: 2.3em;
-}
 
-.info1 p{
-  font-weight: lighter;
-  font-size: 1.125em;
+
 }
