@@ -29,15 +29,14 @@
     ul.headlink{
       display: flex;
       flex-direction: column;
-      margin-top: 32%;
-      margin-left: -80%;
+      margin-top: 34%;
+      margin-left: -86%;
     }
 
     ul.headlink li{
       padding: 0% 2% 0% 2%;
       font-size: .83em;
       display: inline;
-
     }
 
     .o{margin-left: -10.5%}
